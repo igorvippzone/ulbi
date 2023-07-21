@@ -16,18 +16,21 @@
     align-items: center;
 }
 
+.link {
+    left: 10px;
+}
+
 .collapsed {
     width: var(--sidebar-width-collapsed);
 
     .link {
         opacity: 0;
-        transition: opacity .3s;
+        transition: opacity 0.3s;
         width: 0;
     }
 }
 
-
-.collapsedBtn{
+.collapsedBtn {
     position: absolute;
     right: calc(-1 * var(--font-line-l));
     bottom: 40px;
@@ -38,8 +41,6 @@
     margin-left: 30px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .item {
@@ -47,10 +48,7 @@
     display: flex;
     align-items: center;
 }
-.link{
-    left: 10px;
-}
 
 .icon {
-fill: var(--inverted-primary-color);
+    fill: var(--inverted-primary-color);
 }
